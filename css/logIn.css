@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 75px;
+    cursor: pointer;
+   
+}
+
+nav {
+    flex: 1;
+    padding-left: 60px;
+  
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+.login-content-header{
+
+    border: solid 5px #000; 
+    width: 60%;
+    height: 55%;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 5%;
+    
+}
+
+.login_heading{
+
+    font-size: 3.5rem;
+    color: #000;
+    text-decoration: underline;
+    margin-top: 25px;
+    margin-bottom: 2px; 
+
+}
+
+.form1{
+   margin-left: 15%;
+    color:#000;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
+.form1 th{
+    color: #000;
+	font-size: 40px;
+}
+.field1{
+    height: 2rem;
+    width: 20rem;
+    margin-bottom: 1.8rem;
+    background-color: rgb(238, 238, 229);
+}
+.field2{
+    height: 2rem;
+    width: 20rem;
+}
+.table{
+    padding-top: 20px;
+    padding-left:30px;
+}
+.submit{
+    width: 120px;
+    height: 40px;
+    background: rgb(238, 238, 229);;
+    border: 1px solid black;
+    color: black;
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;   
+}
+.submit:hover{
+    background: #000;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:#fff;
+}

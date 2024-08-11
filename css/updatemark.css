@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 75px;
+    cursor: pointer;
+   
+}
+
+nav {
+    flex: 1;
+    padding-left: 60px;
+  
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 90%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.ff  li{
+
+    list-style: none;
+    margin-left: 10%;
+}
+.ff li a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+h1{
+    font-family: bold;
+    color: #0066ff;
+    padding-top: 2rem;
+    text-shadow:  #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px;
+    padding-bottom: 2rem;
+}
+
+.box{
+    height: 1.8rem;
+    width: 11rem;
+    margin-left: 10px;
+}
+
+.submit{
+    width: 90px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 550px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: rgb(214, 214, 214);
+}
+
+.table1 th{
+    color: black;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.submit:hover{
+    background-color: #88bbf5;
+}
+.student_class{
+  padding-left: 50px;
+  color: black;
+ border-bottom: 2px solid black;
+  
+}
+
+.table1{
+    margin-left: 200px;  
+}
+.table2{
+    margin-left: 250px;
+    font-size: 30px;
+    margin-top:50px;
+    border:2px solid black;   
+}
+
+.table2 th{
+    padding: 5px 5PX;
+    border: 2px solid black;
+    
+}
+
+.student_class2{
+    padding-left: 10px;
+    border: 2px solid black;
+    padding-right: 15px;
+
+}
