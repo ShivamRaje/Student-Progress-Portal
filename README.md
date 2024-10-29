@@ -30,7 +30,7 @@
 <h2>Installation</h2>
 <ol>
     <li><strong>Clone the Repository</strong>
-        <pre><code>git clone https://github.com/yourusername/Student-Result-Management-System.git
+        <pre><code>https://github.com/ShivamRaje/Student-Result-Management-System.git
 cd Student-Result-Management-System</code></pre>
     </li>
     <li><strong>Set Up Database</strong>
