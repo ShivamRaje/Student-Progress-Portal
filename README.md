@@ -26,7 +26,6 @@
 <h2>Technologies Used</h2>
 <ul>
     <li><strong>Frontend</strong>: HTML, CSS, JavaScript</li>
-    <li><strong>Backend</strong>: Java, JDBC, Servlets</li>
     <li><strong>Database</strong>: MySQL</li>
 </ul>
 
