@@ -3,65 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
 </head>
 <body>
 
-<h1>Student Result Management System</h1>
+<h1>Student Progress Portal</h1>
 
-<h2>Overview</h2>
-<p>The <strong>Student Result Management System</strong> is a basic web application designed to simplify the process of managing student results. This system enables admins to add, view, and update student marks, while allowing students to check their results using their roll number and name. It features a simple and user-friendly interface, making it accessible for educational institutions or small-scale projects.</p>
+<p>Welcome to <strong>Student Progress Portal</strong>, a streamlined and secure application designed to manage and view student results efficiently. This project allows admins to manage student marks with ease, while providing students with personalized, secure access to their academic progress.</p>
+
+<p><img src="https://img.shields.io/github/repo-size/ShivamRaje/Student-Progress-Portal" alt="GitHub repo size"> 
+<!-- <img src="https://img.shields.io/github/contributors/ShivamRaje/Student-Progress-Portal" alt="GitHub contributors"> 
+<img src="https://img.shields.io/github/stars/ShivamRaje/Student-Progress-Portal?style=social" alt="GitHub stars"></p> -->
 
 <h2>Features</h2>
 <ul>
-    <li><strong>Admin Login</strong>: Secure admin login for result management.</li>
-    <li><strong>Result Entry</strong>: Admin can input and update marks for students.</li>
-    <li><strong>Student View</strong>: Students can access their results by entering their roll number and name.</li>
-    <li><strong>User-Friendly Interface</strong>: Simple and intuitive interface for easy navigation.</li>
+    <li><strong>Admin Interface</strong>: Intuitive interface for admins to input and manage student marks.</li>
+    <li><strong>Secure Student Access</strong>: Personalized login system for students to view their results using roll numbers and names.</li>
+    <li><strong>User-Centric Design</strong>: Simple, user-friendly interface ensuring a seamless experience for both students and admins.</li>
+    <li><strong>Optimized Backend</strong>: Fast and accurate data handling to improve efficiency and maintain data integrity.</li>
 </ul>
 
-<h2>Tech Stack</h2>
+<h2>Technologies Used</h2>
 <ul>
     <li><strong>Frontend</strong>: HTML, CSS, JavaScript</li>
-    <li><strong>Backend</strong>: Java, JDBC, MySQL</li>
+    <li><strong>Backend</strong>: Java, JDBC, Servlets</li>
     <li><strong>Database</strong>: MySQL</li>
 </ul>
 
-<h2>Installation</h2>
+<h2>Project Structure</h2>
+<p>The application is divided into two main components:</p>
 <ol>
-    <li><strong>Clone the Repository</strong>
-        <pre><code>https://github.com/ShivamRaje/Student-Result-Management-System.git
-cd Student-Result-Management-System</code></pre>
+    <li><strong>Admin Panel</strong>: Enables administrators to log in, input, update, and delete student results.</li>
+    <li><strong>Student Access</strong>: Allows students to securely log in and retrieve their results based on their roll number and name.</li>
+</ol>
+
+<h2>Setup and Installation</h2>
+<ol>
+    <li>Clone the repository:
+        <pre><code>git clone https://github.com/ShivamRaje/Student-Progress-Portal.git</code></pre>
     </li>
-    <li><strong>Set Up Database</strong>
+    <li>Set up the MySQL database:
         <ul>
-            <li>Create a MySQL database and import the provided SQL file to set up tables.</li>
-            <li>Update database configurations in the code as needed.</li>
+            <li>Create a database and import the necessary tables as per the provided SQL scripts.</li>
         </ul>
     </li>
-    <li><strong>Run the Application</strong>
+    <li>Configure database connection in the code:
         <ul>
-            <li>Compile and run the Java application.</li>
-            <li>Access the system via <code>http://localhost:8080/StudentResultManagement</code>.</li>
+            <li>Update the database credentials in the backend configuration file (e.g., <code>DBConfig.java</code>).</li>
         </ul>
     </li>
+    <li>Run the application on a local server (e.g., Tomcat).</li>
 </ol>
 
 <h2>Usage</h2>
 <ul>
-    <li><strong>Admin Access</strong>: Log in as an admin to manage student results.</li>
-    <li><strong>Student Access</strong>: Use the student portal to check results by entering roll number and name.</li>
-</ul>
-
-<h2>Future Enhancements</h2>
-<ul>
-    <li>Improve security features.</li>
-    <li>Add more filtering options for admin.</li>
-    <li>Provide data export options in PDF or Excel.</li>
+    <li><strong>Admins</strong>: Log in to the admin panel, then manage student records (add, update, delete marks).</li>
+    <li><strong>Students</strong>: Log in using your roll number and name to view results instantly.</li>
 </ul>
 
 <h2>Contributing</h2>
-<p>Feel free to open issues or submit pull requests for improvements.</p>
+<p>Contributions are welcome! Feel free to open issues or submit pull requests for improvements.</p>
+
+<h2>Contact</h2>
+<p>For questions, reach out at <strong>shivamraje848@gmail.com</strong></p>
+
+<hr>
+<p>Thank you for using <strong>Student Progress Portal</strong>! Your feedback and contributions are valuable for continuous improvement.</p>
 
 </body>
 </html>
