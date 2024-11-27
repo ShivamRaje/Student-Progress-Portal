@@ -12,7 +12,7 @@
 <p>Welcome to <strong>Student Progress Portal</strong>, a streamlined and secure application designed to manage and view student results efficiently. This project allows admins to manage student marks with ease, while providing students with personalized, secure access to their academic progress.</p>
 
 <p><img src="https://img.shields.io/github/repo-size/ShivamRaje/Student-Progress-Portal" alt="GitHub repo size"> 
-<!-- <img src="https://img.shields.io/github/contributors/ShivamRaje/Student-Progress-Portal" alt="GitHub contributors"> 
+<!-- .<img src="https://img.shields.io/github/contributors/ShivamRaje/Student-Progress-Portal" alt="GitHub contributors"> 
 <img src="https://img.shields.io/github/stars/ShivamRaje/Student-Progress-Portal?style=social" alt="GitHub stars"></p> -->
 
 <h2>Features</h2>
