@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<h1>Student Progress Portal.</h1>
+<h1>Student Progress Portal..</h1>
 
 <p>Welcome to <strong>Student Progress Portal</strong>, a strea.mlined and secure application designed to manage and view student results efficiently. This project allows admins to manage student marks with ease, while providing students with personalized, secure access to their academic progress.</p>
 
