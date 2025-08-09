@@ -17,7 +17,7 @@
 
 <h2>Features</h2>
 <ul>
-    <li><strong>Admin Interface</strong>: Intuitive interface for admins to input and manage student marks.</li>
+    <li><strong>Admin Interface</strong>: Intuitive interface for admins to input and manage student marks..</li>
     <li><strong>Secure Student Access</strong>: Personalized login system for students to view their results using roll numbers and names.</li>
     <li><strong>User-Centric Design</strong>: Simple, user-friendly interface ensuring a seamless experience for both students and admins.</li>
     <li><strong>Optimized Backend</strong>: Fast and accurate data handling to improve efficiency and maintain data integrity.</li>
